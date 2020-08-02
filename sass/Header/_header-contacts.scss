@@ -1,0 +1,47 @@
+.nav {
+  display: flex;
+  margin-left: 200px;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+.auth-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1rem;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.link {
+  display: flex;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: $mainColor;
+
+  &:hover,
+  :hover svg {
+    fill: $secondarycolor;
+    color: $secondarycolor;
+  }
+}
+
+.logo-contacts {
+  margin-right: 10px;
+  margin-top: 3px;
+}
+
+.phone {
+  margin-right: 10px;
+  margin-top: 0px;
+}
+
+.logo-contacts .link {
+  transition-property: color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

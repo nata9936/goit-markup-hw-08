@@ -1,0 +1,49 @@
+.logo-one {
+  display: block;
+  width: 170px;
+  height: 90px;
+  padding: 20px 63px;
+}
+
+.logo-two {
+  display: block;
+  width: 170px;
+  height: 90px;
+  padding: 19px 65px;
+}
+
+.logo-three {
+  display: block;
+  width: 170px;
+  height: 90px;
+  padding: 24px 64px;
+}
+
+.logo-four {
+  display: block;
+  width: 170px;
+  height: 90px;
+  padding: 24px 45px;
+}
+
+.logo-five {
+  display: block;
+  width: 170px;
+  height: 90px;
+  padding: 22px 55px;
+}
+
+.logo-six {
+  display: block;
+  width: 170px;
+  height: 90px;
+  padding: 22px 40px;
+}
+
+.fill {
+  fill: #afb1b8;
+
+  &:hover {
+    fill: $secondarycolor;
+  }
+}

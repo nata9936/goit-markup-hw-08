@@ -1,0 +1,23 @@
+.logo-web {
+  color: $secondarycolor;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 1.2;
+  margin-right: 10px;
+}
+
+.logo-studio {
+  color: $logoColor;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 1.2;
+}
+
+.link-logo {
+  display: flex;
+}

@@ -1,0 +1,40 @@
+$secondarycolor: #2196f3;
+$mainColor: #757575;
+$titleColor: #212121;
+$logoColor: #000000;
+$heroandbuttonColor: #ffffff;
+$unicColor: rgba(255, 255, 255, 0.6);
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  padding: 0px;
+  margin: 0px;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 1200px;
+}

@@ -1,0 +1,46 @@
+.submain-title {
+  color: $titleColor;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 1.17;
+
+  &.doing {
+    margin-top: 115px;
+    margin-bottom: 0px;
+  }
+}
+
+.list.work {
+  display: flex;
+  justify-content: center;
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+
+.list.work .item {
+  margin-right: 30px;
+  text-align: center;
+  position: relative;
+}
+
+.name-work {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  display: block;
+  align-items: center;
+
+  padding: 27px 83px;
+
+  color: $heroandbuttonColor;
+  background-color: rgba(47, 48, 58, 0.8);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+
+  width: 370px;
+  height: 70px;
+}

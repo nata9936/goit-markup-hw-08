@@ -1,0 +1,99 @@
+.list.contact {
+  display: block;
+
+  margin-left: 0px;
+  padding-left: 0px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.adress {
+  color: $heroandbuttonColor;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1.71;
+  padding-right: 214px;
+}
+
+.unique {
+  color: $mainColor;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1.71;
+}
+
+.join-in {
+  padding-top: 10px;
+  padding-right: 0px;
+}
+
+.title-white {
+  color: $heroandbuttonColor;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1.14;
+  text-transform: uppercase;
+}
+
+.list.list-join {
+  display: flex;
+  padding-left: 0px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  width: 206px;
+  justify-content: space-between;
+}
+
+.list-join .item {
+  margin-right: 10px;
+  width: 44px;
+  height: 44px;
+
+  padding: 12px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+
+  &:hover {
+    background-color: $secondarycolor;
+  }
+}
+
+.insta-footer {
+  width: 20px;
+  height: 20px;
+
+  &:hover {
+    background-color: $secondarycolor;
+  }
+}
+
+.twitter-footer {
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
+
+  &:hover {
+    background-color: $secondarycolor;
+  }
+}
+
+.facebook-footer {
+  width: 20px;
+  height: 20px;
+
+  &:hover {
+    background-color: $secondarycolor;
+  }
+}
+
+.linkedin-footer {
+  width: 20px;
+  height: 20px;
+
+  &:hover {
+    background-color: $secondarycolor;
+  }
+}

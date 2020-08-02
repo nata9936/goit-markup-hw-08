@@ -1,0 +1,56 @@
+.list.icon {
+  margin-top: 16px;
+  margin-bottom: 0px;
+
+  display: flex;
+  padding-left: 0px;
+  padding-bottom: 24px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.list.icon .item {
+  margin-right: 16px;
+  width: 206px;
+  border-radius: 50%;
+
+  &:hover {
+    background-color: $secondarycolor;
+  }
+}
+
+.insta {
+  display: block;
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+}
+
+.twitter {
+  display: block;
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+}
+
+.facebook {
+  display: block;
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+}
+
+.linkedin {
+  display: block;
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+}
+
+.fill-icon {
+  fill: #afb1b8;
+
+  &:hover {
+    fill: #ffffff;
+  }
+}

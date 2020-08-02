@@ -1,0 +1,26 @@
+.page-footer {
+  background-color: #2f303a;
+}
+
+.container.footer {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: baseline;
+  height: 253px;
+
+  margin-top: 94px;
+  margin-bottom: 0px;
+  padding-top: 45px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.title-logo-white {
+  color: $heroandbuttonColor;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 1.2;
+}

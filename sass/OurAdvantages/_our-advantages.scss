@@ -1,0 +1,57 @@
+.advantages {
+  display: flex;
+  justify-content: center;
+  padding-left: 0px;
+  margin-top: 65px;
+}
+
+.advantages .item {
+  flex-basis: 270px;
+  margin-right: 30px;
+
+  &:last-child {
+    margin-right: 0px;
+  }
+
+  &::before {
+    display: block;
+    content: "";
+    height: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f5f4fa;
+  }
+}
+
+.icon-sputnik::before {
+  background-image: url(../img/antenna.png);
+}
+
+.icon-time::before {
+  background-image: url(../img/clock.png);
+}
+
+.icon-tv::before {
+  background-image: url(../img/diagram.png);
+}
+
+.icon-cosm::before {
+  background-image: url(../img/astronaut.png);
+}
+
+.title {
+  color: $titleColor;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1.14;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  color: $mainColor;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1.71;
+}
